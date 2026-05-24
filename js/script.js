@@ -3,7 +3,7 @@ let index = 0;
 
 const nameElement = document.getElementById("name");
 const textElement = document.getElementById("text");
-const bgElement =  document.getElementById("background");
+const bgElement =  document.getElementById("bg");
 
 /*================
 シナリオ読み込み
