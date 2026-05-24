@@ -1,7 +1,8 @@
 [
   {
     "name": "MOVI",
-    "text": "ようこそ。"
+    "text": "ようこそ。",
+    "bg": "./bg/office01.png"
   },
 
   {
