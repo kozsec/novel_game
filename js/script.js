@@ -23,7 +23,7 @@ function showMessage() {
   nameElement.textContent = message.name;
   textElement.textContent = message.text;
   if (message.bg) { /*背景画像があれば上書き*/
-    backgroundElement.src = message.bg;
+    bgElement.src = message.bg;
   }
 }
 
