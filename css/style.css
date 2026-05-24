@@ -1,22 +1,43 @@
 body {
   background: black;
   color: white;
-
   margin: 0;
-
   height: 100vh;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   font-family: sans-serif;
 }
 
+/*================
+ゲーム領域
+================*/
 #game {
   width: 80%;
 }
 
+/*================
+背景
+================*/
+#background {
+
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  z-index: -1;
+
+}
+
+/*================
+名前
+================*/
 #name {
   font-size: 24px;
   font-weight: bold;
@@ -24,18 +45,13 @@ body {
   margin-bottom: 20px;
 }
 
+/*================
+テキスト領域
+================*/
 #text {
   font-size: 32px;
 
   line-height: 1.6;
 
   min-height: 120px;
-}
-
-#next-btn {
-  margin-top: 20px;
-
-  padding: 10px 20px;
-
-  font-size: 20px;
 }
